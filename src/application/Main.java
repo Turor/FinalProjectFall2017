@@ -28,6 +28,9 @@ public class Main extends Application {
 			int width = 450;
 			int height = 400;
 			
+			primaryStage.setTitle("Memory Matching Game");
+			
+			
 			//I prefer groups to serve as my root node. Far more control
 			Group root = new Group();
 			//Initialize the game
